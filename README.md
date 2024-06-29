@@ -1,1 +1,1 @@
-WEB.EGS.COM
+web.guvenlisite.com
