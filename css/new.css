@@ -1170,3 +1170,9 @@ img[src*="favori-site"] {
   background-size: contain !important;
   background-repeat: round !important;
 }
+
+.perabet-bg-special {
+  background: url("../perabet-bg.png") !important;
+  background-size: contain !important;
+  background-repeat: round !important;
+}
