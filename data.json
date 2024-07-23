@@ -4,63 +4,15 @@
     "logo": "",
     "sites": [
       {
-        "url": "https://bit.ly/ggxmono",
+        "url": "https://bit.ly/perabetgrs",
         "desc": [
-          ""
+          "PERABET 333TL"
         ],
-        "site": "monobahis",
+        "site": "perabet",
         "sort": null,
-        "color": "#e5385c",
-        "miktar": "₺250",
-        "promo_code": "250spin",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ggxbetgram",
-        "desc": [
-          ""
-        ],
-        "site": "betgram",
-        "sort": null,
-        "color": "#50b812",
-        "miktar": "₺500",
-        "promo_code": null,
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ggxcadde",
-        "desc": [
-          ""
-        ],
-        "site": "caddebet",
-        "sort": null,
-        "color": "#e50539",
-        "miktar": "₺250",
-        "promo_code": "250spin",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ggxklas",
-        "desc": [
-          ""
-        ],
-        "site": "klasbahis",
-        "sort": null,
-        "color": "#23a0d2",
-        "miktar": "₺250",
-        "promo_code": "250spin",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ggxpoker",
-        "desc": [
-          ""
-        ],
-        "site": "pokerklas",
-        "sort": null,
-        "color": "#999",
-        "miktar": "₺250",
-        "promo_code": "250spin",
+        "color": "#18cf5f",
+        "miktar": "₺333",
+        "promo_code": "PERA333",
         "slider_img": ""
       },
       {
@@ -85,18 +37,6 @@
         "color": "#2dbcb4",
         "miktar": "₺500",
         "promo_code": null,
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ggxjest",
-        "desc": [
-          ""
-        ],
-        "site": "jestbahis",
-        "sort": null,
-        "color": "#ffcf01",
-        "miktar": "₺250",
-        "promo_code": "250spin",
         "slider_img": ""
       },
       {
