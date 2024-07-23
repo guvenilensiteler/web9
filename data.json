@@ -368,76 +368,56 @@
         "sort": "4",
         "sites": [
           {
-            "site": "monobahis",
+            "site": "perabet",
             "sort": "1"
           },
           {
-            "site": "betgram",
+            "site": "betturkey",
             "sort": "2"
           },
           {
-            "site": "caddebet",
+            "site": "xslot",
             "sort": "3"
           },
           {
-            "site": "klasbahis",
+            "site": "betkom",
             "sort": "4"
           },
           {
-            "site": "pokerklas",
+            "site": "tarafbet",
             "sort": "5"
           },
           {
-            "site": "betturkey",
+            "site": "bahiscom",
             "sort": "6"
           },
           {
-            "site": "xslot",
+            "site": "mariobet",
             "sort": "7"
           },
           {
-            "site": "jestbahis",
+            "site": "bayspin",
             "sort": "8"
           },
           {
-            "site": "betkom",
+            "site": "baywin",
             "sort": "9"
           },
           {
-            "site": "tarafbet",
+            "site": "betine",
             "sort": "10"
           },
           {
-            "site": "bahiscom",
+            "site": "betorspin",
             "sort": "11"
           },
           {
-            "site": "mariobet",
+            "site": "betist",
             "sort": "12"
           },
           {
-            "site": "bayspin",
-            "sort": "13"
-          },
-          {
-            "site": "baywin",
-            "sort": "14"
-          },
-          {
-            "site": "betine",
-            "sort": "15"
-          },
-          {
-            "site": "betorspin",
-            "sort": "16"
-          },
-          {
-            "site": "betist",
-            "sort": "17"
-          },
-          {
             "site": "milbet",
-            "sort": "18"
+            "sort": "13"
           }
         ]
       },
