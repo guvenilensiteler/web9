@@ -376,14 +376,14 @@
         <div class="row normal"  :class="['cat' + list.id, 'banner' + list.grid]">
             <div class="col" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(list.sites, [item => parseInt(item.sort)], ['asc'])">
                 <a target="_blank" onclick="click_say(this)" :site="_.find(client.sites, ['site', site.site]).site"  :href="_.find(client.sites, ['site', site.site]).url" class="item" :style="'--site-color: ' + _.find(client.sites, ['site', site.site]).color"
-                   :class="['betgram','milbet'].includes(_.find(client.sites, ['site', site.site]).site) ? _.find(client.sites, ['site', site.site]).site+'-bg-special' : ''">
+                   :class="['betgram','milbet','perabet'].includes(_.find(client.sites, ['site', site.site]).site) ? _.find(client.sites, ['site', site.site]).site+'-bg-special' : ''">
                     <div class="top">
                         <img :src="client.cdn_url + _.find(client.sites, ['site', site.site]).site + '.png'" width="150">
                     </div>
                     <div class="text">
                         <span v-if="!_.find(client.sites, ['site', site.site]).promo_code">{{ _.find(client.sites, ['site', site.site]).desc[0] }}</span>
                         <span class="font-size-x-small" v-if="_.find(client.sites, ['site', site.site]).promo_code">Promo Code:</span>
-                        <span :class="['betgram','milbet'].includes(_.find(client.sites, ['site', site.site]).site) ? '' : 'promo-code-special'">
+                        <span :class="['betgram','milbet','perabet'].includes(_.find(client.sites, ['site', site.site]).site) ? '' : 'promo-code-special'">
                             {{_.find(client.sites, ['site', site.site]).promo_code}}
                         </span>
                     </div>
