@@ -16,6 +16,43 @@
         "slider_img": ""
       },
       {
+        "url": "https://cutt.ly/0ei03h7d",
+        "desc": [
+          "555TL DENEME BONUSU"
+        ],
+        "site": "fixbet",
+        "sort": null,
+        "color": "#adf01f",
+        "miktar": "₺555",
+        "promo_code": null,
+        "promo_code_yok": "5 DAKİKADA ÇEKİM LİMİTSİZ KAZANÇ",
+        "slider_img": ""
+      },
+      {
+        "url": "https://cutt.ly/pei00y6j",
+        "desc": [
+          "555TL DENEME BONUSU"
+        ],
+        "site": "matadorbet",
+        "sort": null,
+        "color": "#fb0009",
+        "miktar": "₺555",
+        "promo_code2": "%200 6000 TL HOSGELDİN BONUSU",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/delikenanxslot",
+        "desc": [
+          "500₺ veya 500 freespin"
+        ],
+        "site": "xslot",
+        "sort": null,
+        "color": "#2dbcb4",
+        "miktar": "₺500",
+        "promo_code": null,
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/delikenanbetturkey",
         "desc": [
           "500₺ veya 500 freespin"
@@ -28,14 +65,14 @@
         "slider_img": ""
       },
       {
-        "url": "https://bit.ly/delikenanxslot",
+        "url": "https://cutt.ly/leo30c9A",
         "desc": [
-          "500₺ veya 500 freespin"
+          "250TL DENEME BONUSU"
         ],
-        "site": "xslot",
+        "site": "supertotobet",
         "sort": null,
-        "color": "#2dbcb4",
-        "miktar": "₺500",
+        "color": "#ff003c",
+        "miktar": "₺250",
         "promo_code": null,
         "slider_img": ""
       },
@@ -87,78 +124,6 @@
         "promo_code": null,
         "slider_img": ""
       },
-      {
-        "url": "https://bit.ly/ggxbayspin",
-        "desc": [
-          "444₺ veya 300 freespin"
-        ],
-        "site": "bayspin",
-        "sort": null,
-        "color": "#35f02b",
-        "miktar": "₺444",
-        "promo_code": null,
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ggxbaywin",
-        "desc": [
-          "300₺ deneme bonusu"
-        ],
-        "site": "baywin",
-        "sort": null,
-        "color": "#00fb87",
-        "miktar": "₺300",
-        "promo_code": null,
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ggxbetine",
-        "desc": [
-          "%300 ilk yatırım bonusu"
-        ],
-        "site": "betine",
-        "sort": null,
-        "color": "#f2b601",
-        "miktar": "GİRİŞ YAP",
-        "promo_code": null,
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ggxbetorspin",
-        "desc": [
-          "300₺ deneme bonusu"
-        ],
-        "site": "betorspin",
-        "sort": null,
-        "color": "#ff7b31",
-        "miktar": "₺300",
-        "promo_code": null,
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ggxbetist",
-        "desc": [
-          "250₺ veya 250 freespin"
-        ],
-        "site": "betist",
-        "sort": null,
-        "color": "#42b16f",
-        "miktar": "₺250",
-        "promo_code": null,
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ggxmilbet",
-        "desc": [
-          ""
-        ],
-        "site": "milbet",
-        "sort": null,
-        "color": "#be3cc2",
-        "miktar": "₺500",
-        "promo_code": null,
-        "slider_img": ""
-      }
     ],
     "social": {
       "kick": null,
@@ -372,52 +337,40 @@
             "sort": "1"
           },
           {
-            "site": "betturkey",
+            "site": "fixbet",
             "sort": "2"
           },
           {
-            "site": "xslot",
+            "site": "matadorbet",
             "sort": "3"
           },
           {
-            "site": "betkom",
+            "site": "xslot",
             "sort": "4"
           },
           {
-            "site": "tarafbet",
+            "site": "betturkey",
             "sort": "5"
           },
           {
-            "site": "bahiscom",
+            "site": "supertotobet",
             "sort": "6"
           },
           {
-            "site": "mariobet",
+            "site": "betkom",
             "sort": "7"
           },
           {
-            "site": "bayspin",
+            "site": "tarafbet",
             "sort": "8"
           },
           {
-            "site": "baywin",
+            "site": "bahiscom",
             "sort": "9"
           },
           {
-            "site": "betine",
+            "site": "mariobet",
             "sort": "10"
-          },
-          {
-            "site": "betorspin",
-            "sort": "11"
-          },
-          {
-            "site": "betist",
-            "sort": "12"
-          },
-          {
-            "site": "milbet",
-            "sort": "13"
           }
         ]
       },
