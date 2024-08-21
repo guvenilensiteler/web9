@@ -123,6 +123,19 @@
         "miktar": "₺600",
         "promo_code": null,
         "slider_img": ""
+      },
+      {
+        "url": "https://cutt.ly/xeczedxW",
+        "desc": [
+          "777TL DENEME BONUSU"
+        ],
+        "site": "bankobet",
+        "sort": null,
+        "color": "#ff1376",
+        "miktar": "₺777",
+        "promo_code": null,
+        "promo_code_yok": "",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -371,6 +384,10 @@
           {
             "site": "mariobet",
             "sort": "10"
+          },
+          {
+            "site": "bankobet",
+            "sort": "11"
           }
         ]
       },
