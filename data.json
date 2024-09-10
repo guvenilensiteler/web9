@@ -4,18 +4,6 @@
     "logo": "",
     "sites": [
       {
-        "url": "https://bit.ly/perabetgrs",
-        "desc": [
-          ""
-        ],
-        "site": "perabet",
-        "sort": null,
-        "color": "#18cf5f",
-        "miktar": "₺333",
-        "promo_code": null,
-        "slider_img": ""
-      },
-      {
         "url": "https://cutt.ly/0ei03h7d",
         "desc": [
           "555TL DENEME BONUSU"
@@ -38,42 +26,6 @@
         "color": "#fb0009",
         "miktar": "₺555",
         "promo_code2": "%200 6000 TL HOSGELDİN BONUSU",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/delikenanxslot",
-        "desc": [
-          "500₺ veya 500 freespin"
-        ],
-        "site": "xslot",
-        "sort": null,
-        "color": "#2dbcb4",
-        "miktar": "₺500",
-        "promo_code": null,
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/delikenanbetturkey",
-        "desc": [
-          "500₺ veya 500 freespin"
-        ],
-        "site": "betturkey",
-        "sort": null,
-        "color": "#ffdd3a",
-        "miktar": "₺500",
-        "promo_code": null,
-        "slider_img": ""
-      },
-      {
-        "url": "https://cutt.ly/leo30c9A",
-        "desc": [
-          "400TL DENEME BONUSU"
-        ],
-        "site": "supertotobet",
-        "sort": null,
-        "color": "#ff003c",
-        "miktar": "₺400",
-        "promo_code": null,
         "slider_img": ""
       },
       {
@@ -125,16 +77,27 @@
         "slider_img": ""
       },
       {
-        "url": "https://cutt.ly/xeczedxW",
+        "url": "https://bit.ly/delikenanxslot",
         "desc": [
-          "777TL DENEME BONUSU"
+          "500₺ veya 500 freespin"
         ],
-        "site": "bankobet",
+        "site": "xslot",
         "sort": null,
-        "color": "#ff1376",
-        "miktar": "₺777",
+        "color": "#2dbcb4",
+        "miktar": "₺500",
         "promo_code": null,
-        "promo_code_yok": "",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/delikenanbetturkey",
+        "desc": [
+          "500₺ veya 500 freespin"
+        ],
+        "site": "betturkey",
+        "sort": null,
+        "color": "#ffdd3a",
+        "miktar": "₺500",
+        "promo_code": null,
         "slider_img": ""
       }
     ],
@@ -293,48 +256,12 @@
         "sort": "4",
         "sites": [
           {
-            "site": "alobet",
-            "sort": "8"
-          },
-          {
-            "site": "xslot",
-            "sort": "7"
-          },
-          {
-            "site": "sbetin",
-            "sort": "3"
-          },
-          {
-            "site": "betmatik",
-            "sort": "10"
-          },
-          {
-            "site": "roketbet",
-            "sort": "9"
-          },
-          {
-            "site": "mrbahis",
-            "sort": "5"
-          },
-          {
-            "site": "lionbet",
-            "sort": "4"
-          },
-          {
-            "site": "benjabet",
-            "sort": "11"
-          },
-          {
-            "site": "pradabet",
+            "site": "fixbet",
             "sort": "1"
           },
           {
-            "site": "bahisbey",
+            "site": "matadorbet",
             "sort": "2"
-          },
-          {
-            "site": "padisahbet",
-            "sort": "6"
           }
         ]
       },
@@ -346,48 +273,28 @@
         "sort": "4",
         "sites": [
           {
-            "site": "perabet",
+            "site": "betkom",
             "sort": "1"
           },
           {
-            "site": "fixbet",
+            "site": "tarafbet",
             "sort": "2"
           },
           {
-            "site": "matadorbet",
+            "site": "bahiscom",
             "sort": "3"
           },
           {
-            "site": "xslot",
+            "site": "mariobet",
             "sort": "4"
           },
           {
-            "site": "betturkey",
+            "site": "xslot",
             "sort": "5"
           },
           {
-            "site": "supertotobet",
+            "site": "betturkey",
             "sort": "6"
-          },
-          {
-            "site": "betkom",
-            "sort": "7"
-          },
-          {
-            "site": "tarafbet",
-            "sort": "8"
-          },
-          {
-            "site": "bahiscom",
-            "sort": "9"
-          },
-          {
-            "site": "mariobet",
-            "sort": "10"
-          },
-          {
-            "site": "bankobet",
-            "sort": "11"
           }
         ]
       },
@@ -517,16 +424,8 @@
         "sort": "1",
         "sites": [
           {
-            "site": "pradabet",
-            "sort": "2"
-          },
-          {
-            "site": "mariobet",
+            "site": "matadorbet",
             "sort": "1"
-          },
-          {
-            "site": "gonebet",
-            "sort": "3"
           }
         ]
       }
