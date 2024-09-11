@@ -260,6 +260,19 @@
         background: var(--matadorbet);
     }
 </style>
+<style_template style="display: none;">
+    .ana-sponsor {
+        align-items: center;
+    }
+    #ana-sponsor-text {
+        font-size: unset !important;
+        width: auto !important;
+    }
+    header .container {
+        margin: 0 31%;
+    }
+</style_template>
+<style class="sadece-desktop"></style>
 <body>
 <div id="preloader">
     <svg height="300" width="300">
@@ -616,6 +629,34 @@
                 }
                 window.addEventListener('scroll', navFixed);
                 */
+
+                // SADECE DESKTOP İSE HEADER İLE İLGİLİ AYARLAMALAR
+                function isMobile() {
+                    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+                    if (/android/i.test(userAgent)) {
+                        return true;
+                    }
+                    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                        return true;
+                    }
+                    return false;
+                }
+                if (!isMobile()) {
+                    is_elements_load = setInterval(function(){
+                        let e = document.querySelector('#ana-sponsor-text');
+                        let e2= document.querySelector('.mobilde-buraya-tasi');
+                        let e3= document.querySelector('.sadece-desktop');
+                        let e4= document.querySelector('style_template');
+                        let e5= document.querySelector('.ana-sponsor.as2');
+                        if (e && e2 && e3 && e4 && e5) {
+                            document.querySelector('.mobilde-buraya-tasi').outerHTML = document.querySelector('#ana-sponsor-text').outerHTML;
+                            document.querySelector('#ana-sponsor-text').remove();
+                            document.querySelector('.sadece-desktop').innerHTML = document.querySelector('style_template').innerHTML;
+                            document.querySelector('.ana-sponsor.as2').style.marginTop = 0;
+                            clearInterval(is_elements_load);
+                        }
+                    },25);
+                }
             };
         },
         created(){
@@ -682,7 +723,6 @@
                     if(!_.isNull(this.client.background)){
                         document.body.style.backgroundImage = 'url(' + this.client.background + ')'
                     }
-
                 })
         },
         data() {
@@ -709,21 +749,8 @@
 </script>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
-        function isMobile() {
-            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-            if (/android/i.test(userAgent)) {
-                return true;
-            }
-            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-                return true;
-            }
-            return false;
-        }
-        if (!isMobile()) {
-            document.querySelector('header').style.display='none';
-        }
-    });
 
+    });
 </script>
 </body>
 </html>
