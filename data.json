@@ -371,6 +371,34 @@
           {
             "site": "betturkey",
             "sort": "7"
+          },
+          {
+            "site": "tipobet",
+            "sort": "8"
+          },
+          {
+            "site": "matadorbet",
+            "sort": "9"
+          },
+          {
+            "site": "betturkey",
+            "sort": "10"
+          },
+          {
+            "site": "ligobet",
+            "sort": "11"
+          },
+          {
+            "site": "onwin",
+            "sort": "12"
+          },
+          {
+            "site": "zbahis",
+            "sort": "13"
+          },
+          {
+            "site": "sahabet",
+            "sort": "14"
           }
         ]
       },
