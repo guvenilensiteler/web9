@@ -27,7 +27,7 @@
 
     <script>
         // HTTPS Sorunu Fix
-        if (document.URL.startsWith('http://') != -1) {
+        if (document.URL.startsWith('http://')) {
             window.location.href = document.URL.replace('http://','https://');
         }
     </script>
