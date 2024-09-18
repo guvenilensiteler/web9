@@ -2,7 +2,7 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Güvenilen Siteler</title>
     <link rel="stylesheet" href="https://web.guvenlisite.com/css/new.css?v5.46">
     <link rel="shortcut icon" href="https://web.guvenlisite.com/favicon.png">
@@ -288,6 +288,7 @@
         display: flex;
         transform: translateY(100%);
         transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+        -webkit-transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
     }
     .doviz-button .text1 {
         animation: slideUp 4s infinite;
@@ -343,11 +344,11 @@
 <div id="app-v-page" :class="{ 'mobile' : is_mobile}" style="display: none;">
     <header>
         <div class="container" v-if="!loading">
-            <div style="font-weight:bolder; font-size:12px; text-align:left; color:gold; width:71px; transition: width 2s ease;" id="ana-sponsor-text" class="text-shadow">
+            <div style="font-weight:bolder; font-size:12px; text-align:left; color:gold; width:71px; transition: width 2s ease; -webkit-transition: width 2s ease;" id="ana-sponsor-text" class="text-shadow">
                 ANA SPONSOR
             </div>
             <a href="https://cutt.ly/0ei03h7d" target="_blank" class="ana-sponsor as1">
-                <div class="social" style="border: 0px solid var(--fixbet); border-radius: 4px; padding: 6px 0px; overflow: hidden; position: absolute;">
+                <div class="social" style="border: 0px solid var(--fixbet); border-radius: 4px; padding: 6px 0px; overflow: hidden; position: relative;">
                     <kose></kose>
                     <kose></kose>
                     <kose></kose>
@@ -371,8 +372,8 @@
                 </div>
             </a>
             <div class="mobilde-buraya-tasi" style="display: none;"></div>
-            <a href="https://cutt.ly/pei00y6j" target="_blank" class="ana-sponsor as2" style="margin-top: 45px;">
-                <div class="social" style="border: 0px solid var(--matadorbet); border-radius: 4px; padding: 6px 0px; overflow: hidden; position: absolute;">
+            <a href="https://cutt.ly/pei00y6j" target="_blank" class="ana-sponsor as2" style="margin-top: 8px;">
+                <div class="social" style="border: 0px solid var(--matadorbet); border-radius: 4px; padding: 6px 0px; overflow: hidden; position: relative;">
                     <kose></kose>
                     <kose></kose>
                     <kose></kose>
@@ -691,17 +692,22 @@
                 }
                 if (!isMobile()) {
                     is_elements_load = setInterval(function(){
-                        let e = document.querySelector('#ana-sponsor-text');
-                        let e2= document.querySelector('.mobilde-buraya-tasi');
-                        let e3= document.querySelector('.sadece-desktop');
-                        let e4= document.querySelector('style_template');
-                        let e5= document.querySelector('.ana-sponsor.as2');
-                        if (e && e2 && e3 && e4 && e5) {
-                            document.querySelector('.mobilde-buraya-tasi').outerHTML = document.querySelector('#ana-sponsor-text').outerHTML;
-                            document.querySelector('#ana-sponsor-text').remove();
-                            document.querySelector('.sadece-desktop').innerHTML = document.querySelector('style_template').innerHTML;
-                            document.querySelector('.ana-sponsor.as2').style.marginTop = 0;
+                        let e1 = document.querySelector('#ana-sponsor-text');
+                        let e2 = document.querySelector('.mobilde-buraya-tasi');
+                        let e3 = document.querySelector('.sadece-desktop');
+                        let e4 = document.querySelector('style_template');
+                        let e5 = document.querySelector('.ana-sponsor.as2');
+                        let e6 = document.querySelectorAll('.ana-sponsor .social')[0];
+                        let e7 = document.querySelectorAll('.ana-sponsor .social')[1];
+
+                        if (e1 && e2 && e3 && e4 && e5 && e6 && e7) {
                             clearInterval(is_elements_load);
+                            e2.outerHTML = e1.outerHTML;
+                            e1.remove();
+                            e3.innerHTML = e4.innerHTML;
+                            e5.style.marginTop = 0;
+                            e6.style.position = 'absolute';
+                            e7.style.position = 'absolute';
                         }
                     },25);
                 }
