@@ -112,18 +112,6 @@
         "slider_img": ""
       },
       {
-        "url": "https://cutt.ly/3eWjex1n",
-        "desc": [
-          "500TL YADA 500 FREE SPIN"
-        ],
-        "site": "betturkey",
-        "sort": null,
-        "color": "#ffdd3a",
-        "miktar": "₺500",
-        "promo_code": null,
-        "slider_img": ""
-      },
-      {
         "url": "https://cutt.ly/LeRHmhPx",
         "desc": [
           "HERGÜN 500 FREE SPIN VİP CLUP"
@@ -380,24 +368,20 @@
             "sort": "9"
           },
           {
-            "site": "betturkey",
+            "site": "ligobet",
             "sort": "10"
           },
           {
-            "site": "ligobet",
+            "site": "onwin",
             "sort": "11"
           },
           {
-            "site": "onwin",
+            "site": "zbahis",
             "sort": "12"
           },
           {
-            "site": "zbahis",
-            "sort": "13"
-          },
-          {
             "site": "sahabet",
-            "sort": "14"
+            "sort": "13"
           }
         ]
       },
