@@ -4,6 +4,18 @@
     "logo": "",
     "sites": [
       {
+        "url": "https://stake1022.com/tr?c=stake14dolar&offer=stake14dolar",
+        "desc": [
+          "DÜNYANIN EN GÜVENİLİR SİTESİ"
+        ],
+        "site": "stake",
+        "sort": null,
+        "color": "#1475e1",
+        "miktar": "$14",
+        "promo_code": null,
+        "slider_img": ""
+      },
+      {
         "url": "https://cutt.ly/xeczedxW",
         "desc": [
           "1.111 TL NAKİT - 111 FREE SPIN"
@@ -331,6 +343,10 @@
         "name": "Normal Site",
         "sort": "4",
         "sites": [
+          {
+            "site": "stake",
+            "sort": "0"
+          },
           {
             "site": "bankobet",
             "sort": "1"
