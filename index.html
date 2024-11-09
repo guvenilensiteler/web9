@@ -806,7 +806,8 @@
         // tarafbet 100$ güncel kur
         is_element_load = setInterval(function(){
             let e = document.querySelector('.normal.row a[site="tarafbet"] .button');
-            if (e) {
+            let e2= document.querySelector('.normal.row a[site="stake"] .button');
+            if (e && e2) {
                 fetch("https://customers.garantibbva.com.tr/internet/digitalpublic/currency-convertor-public/v1/currency-convertor/calculate-price?&operation=0&price=1&currencySource=USD&currencyTarget=TL", {
                     "credentials": "include",
                     "headers": {
@@ -844,6 +845,12 @@
                         hesap = hesap.toLocaleString('tr-TR'); // 1.337 ondalık noktalarını ekle
                         e.innerHTML = '<span class="text1">$'+bonus+'</span><span class="text2">₺'+hesap+'</span>';
                         e.classList.add('doviz-button'); // hareket animasyonu ekliyoruz
+
+                        bonus2 = e2.innerHTML.replace(/\D/g, '')*1;
+                        hesap2 = Math.round(kur*bonus2);
+                        hesap2 = hesap2.toLocaleString('tr-TR');
+                        e2.innerHTML = '<span class="text1">$'+bonus2+'</span><span class="text2">₺'+hesap2+'</span>';
+                        e2.classList.add('doviz-button');
                     } catch (err) {
                         console.error('Kur hesaplanamadı.');
                         console.warn('Kur hesaplanamadı.');
