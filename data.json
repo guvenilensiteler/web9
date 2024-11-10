@@ -170,6 +170,66 @@
         "miktar": "₺500",
         "promo_code": null,
         "slider_img": ""
+      },
+      {
+        "url": "https://cutt.ly/ueG01aSK",
+        "desc": [
+          "YATIRIMSIZ DENEME BONUSU"
+        ],
+        "site": "starzbet",
+        "sort": null,
+        "color": "#ff6d00",
+        "miktar": "₺750",
+        "promo_code": null,
+        "slider_img": ""
+      },
+      {
+        "url": "https://cutt.ly/YeGMl3w8",
+        "desc": [
+          "500 ₺ DENEME BONUSU"
+        ],
+        "site": "betpublic",
+        "sort": null,
+        "color": "#99284e",
+        "miktar": "₺500",
+        "promo_code": null,
+        "slider_img": ""
+      },
+      {
+        "url": "https://cutt.ly/8eGBmb6o",
+        "desc": [
+          "800 TL ÇEVRİMSİZ YATIRIM ŞARTSIZ DENEME BONUSU"
+        ],
+        "site": "otobet",
+        "sort": null,
+        "color": "#fba200",
+        "miktar": "₺800",
+        "promo_code": null,
+        "slider_img": ""
+      },
+      {
+        "url": "https://cutt.ly/JeGBmt5v",
+        "desc": [
+          "400₺ DENEME YA DA 400 FREESPIN (SWEET BONANZA)"
+        ],
+        "site": "supertotobet",
+        "sort": null,
+        "color": "#ff0037",
+        "miktar": "₺400",
+        "promo_code": null,
+        "slider_img": ""
+      },
+      {
+        "url": "https://cutt.ly/ueGBgBsP",
+        "desc": [
+          "750 TL DENEME BONUSU"
+        ],
+        "site": "bycasino",
+        "sort": null,
+        "color": "#ff6600",
+        "miktar": "₺750",
+        "promo_code": null,
+        "slider_img": ""
       }
     ],
     "social": {
@@ -398,6 +458,26 @@
           {
             "site": "sahabet",
             "sort": "13"
+          },
+          {
+            "site": "starzbet",
+            "sort": "14"
+          },
+          {
+            "site": "betpublic",
+            "sort": "15"
+          },
+          {
+            "site": "otobet",
+            "sort": "16"
+          },
+          {
+            "site": "supertotobet",
+            "sort": "17"
+          },
+          {
+            "site": "bycasino",
+            "sort": "18"
           }
         ]
       },
