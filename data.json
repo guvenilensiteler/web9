@@ -404,10 +404,6 @@
         "sort": "4",
         "sites": [
           {
-            "site": "stake",
-            "sort": "0"
-          },
-          {
             "site": "bankobet",
             "sort": "1"
           },
@@ -478,6 +474,10 @@
           {
             "site": "bycasino",
             "sort": "18"
+          },
+          {
+            "site": "stake",
+            "sort": "19"
           }
         ]
       },
