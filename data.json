@@ -230,6 +230,18 @@
         "miktar": "₺750",
         "promo_code": null,
         "slider_img": ""
+      },
+      {
+        "url": "https://t2m.io/mersogarabel",
+        "desc": [
+          "100₺ DENEME BONUSU"
+        ],
+        "site": "mersobahis",
+        "sort": null,
+        "color": "#ffdf42",
+        "miktar": "₺100",
+        "promo_code": null,
+        "slider_img": ""
       }
     ],
     "social": {
@@ -404,25 +416,10 @@
         "sort": "4",
         "sites": [
           {
-            "site": "bankobet",
+            "site": "mersobahis",
             "sort": "1"
           },
-          {
-            "site": "betkom",
-            "sort": "2"
-          },
-          {
-            "site": "tarafbet",
-            "sort": "3"
-          },
-          {
-            "site": "bahiscom",
-            "sort": "4"
-          },
-          {
-            "site": "mariobet",
-            "sort": "5"
-          },
+
           {
             "site": "xslot",
             "sort": "6"
